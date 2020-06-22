@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="file:///E:/Mes Codes/Bakeli/TP/form bootstrap/bootstrap.css">
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<h1><center><i>Lique-nique Multi-association</i></center></h1>
+	<h3 class="text-warning"><center><i>Inscription</i></center></h3>
+	<div class="container">
+	<div class="row p-3 mt-3 bg-warning">
+		<form class="col-sm-12">
+			
+		<div class="form-group row">
+			<div class="col-md-4"> <label for="name">Prénom :</label> </div>
+			<div class="col-md-6"> <input type="text" name="name" class="form-control col-6">  </div>
+		</div>
+		<div class="form-group row">
+			<div class="col-md-4"><label for="password">Mot de pass :</label></div>
+			<div class="col-md-6"><input type="pwd" name="password" class="form-control col-6"></div>
+		</div> 
+		<div class="form-group row">
+			<div class="col-md-4"><label for="association">Association : </label></div>
+			<div class="col-md-6"><select class="rounded-pill"><option>AssociationX</option></select></div>
+		</div>
+		<div class="checkbox row">
+			<div class="col-md-4">
+				<label>Disponiblité pour la semaine  du 22 juin :</label>
+		</div>
+		<div class="col-md-6">
+				<input type="checkbox" name="lundi" class="checkbox ml-2 ">Lundi
+			<input type="checkbox" name="mardi" class="checkbox ml-2">Mardi
+			<input type="checkbox" name="mercredi" class="checkbox ml-2">Mercredi
+			<input type="checkbox" name="jeudi" class="checkbox ml-2">Jeudi
+			<input type="checkbox" name="vendredi" class="checkbox ml-2">Vendredi
+		</div>
+		</div>
+		<div class="form-group row">
+			<div class="col-md-4">
+				<label> Contribution : </label>
+			</div>
+			<div class="col-md-6">
+				<input type="radio" name="entree" class="radio ml-2">Entrée
+				<input type="radio" name="plar" class="radio ml-2">Plat
+				<input type="radio" name="dessert" class="radio ml-2">Dessert
+			</div>
+		</div>
+		<div class="form-group row" >
+			<div class="col-md-4">
+				<label for="comment">Commentaires :</label>
+			</div>
+			<div class="col-md-6">
+				<textarea class="form-control col-7" rows="3"></textarea>
+			</div>
+			 
+		</div>
+		<div class="form-group row" >
+			<div class="col-md-4"></div>
+			<div class="col-md-6">
+				<label for="submit"></label>
+				<button type="submit" class="btn btn-light btn-outline-dark rounded-pill"  >S'inscrire</button>
+				<label for="reset"></label>
+			<button type="reset" class="btn btn-light btn-outline-dark rounded-pill" >Annuler</button>
+			</div>
+			
+		</div>
+	</form>
+	</div>
+	</div>
+
+</body>
+</html>
